@@ -52,22 +52,22 @@ if (i = 0, i < vegetables.length, i++){
 var x = 0;
 if (x=0, x < persons.length, x++){
     checkAge(persons[x].name, persons[x].age)
-};
+}; //runs checkage for all 5 persons
 
 function getLength(string){
     return string.length;
-};
+}; //gets length of a string
 
 
 function getLength(HelloWorld){
     return 'Hello World!'.length
-}
-var helloWorldLength = getlength(HelloWorld)
+} //gets length of hellow world
+var helloWorldLength = getlength(HelloWorld) //assigns var to length of hellow world
 
 if (helloWorldLength % 2===0) {
     console.log('The world is nice and even!');
 } else {
     console.log('The world is an odd place!');
-};
+}; //logs a string to console depending on if even or odd for the var listed
 
 
